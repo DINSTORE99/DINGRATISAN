@@ -71,10 +71,3 @@ setInterval(() => {
 
 
 
-  function copyCode(id, btn){
-  let text = document.getElementById(id).innerText;
-  navigator.clipboard.writeText(text).then(()=>{
-    btn.innerText = "✅ Disalin!";
-    setTimeout(()=>{ btn.innerText = "Salin kode"; },1500);
-  });
-  }
