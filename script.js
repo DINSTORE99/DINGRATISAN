@@ -2,7 +2,7 @@
 const quotes = [
   "Jangan dengarkan apa kata orang, tetap fokus pada tujuanmu.",
   "Kegagalan adalah bukti bahwa kamu sedang berusaha. Bangkit lagi, jangan berhenti di sini.!",
-  "Selasa penuh inspirasi, terus melangkah jangan berhenti!",
+  "Hari ini bukan tentang sempurna, tapi tentang tetap mencoba.",
   "Jangan biarkan penghinaan menjatuhkanmu. Justru jadikan itu alasan untuk bangkit dan semakin kuat.",
   "Putus asa hanya membuatmu berhenti, padahal keberhasilan bisa jadi tinggal selangkah lagi.",
   "Tetaplah berjuang, jangan biarkan rasa putus asa merampas mimpimu.",
