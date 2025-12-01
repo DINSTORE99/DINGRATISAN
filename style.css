@@ -232,3 +232,26 @@ h1 {
   color: #555;
   font-style: italic;
 }
+    /* === JUDUL UTAMA (DENGAN IKON PUTAR) === */
+    h1 {
+      text-align: center;
+      color: #00FF0B;
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      text-shadow: 0 0 10px rgba(255, 240, 13, 1);
+      animation: blink 2s infinite alternate;
+    }
+    h1 .fa-refresh {
+      animation: spin 3.1s infinite linear; /* Kecepatan putar disesuaikan agar tidak terlalu cepat */
+      margin-left: 10px;
+    }
+
+    @keyframes blink {
+      from { opacity: 0.8; }
+      to { opacity: 1; text-shadow: 0 0 15px rgba(38, 0, 255, 0.9); }
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
