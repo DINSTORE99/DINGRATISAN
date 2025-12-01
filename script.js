@@ -41,7 +41,7 @@ document.getElementById("last-update").textContent =
 
 // Set expired = BESOK JAM 12:00 WIB
 const expire = new Date();
-expire.setDate(expire.getDate() + 1);
+expire.setDate(expire.getDate() + 0);
 expire.setHours(00, 0, 0, 0);
 
 document.getElementById("expired-date").textContent =
